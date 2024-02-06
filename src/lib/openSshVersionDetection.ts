@@ -1,4 +1,4 @@
-import { exec, spawn } from 'node:child_process';
+import { exec } from 'node:child_process';
 
 export async function detectOpenSshVersion(ipAddress: string) {
     // TO DO - get SSH version from this command.
