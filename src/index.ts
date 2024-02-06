@@ -2,6 +2,7 @@ import { detectOpenSshVersion } from "./lib/openSshVersionDetection";
 
 
 async function main() {
+    // Local IP address used for testing.
     await detectOpenSshVersion('192.168.6.129');
 };
 
